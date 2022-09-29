@@ -24,14 +24,21 @@ nav {
   width: 100%;
   position: fixed;
   top: 0%;
-  left: 0%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
   padding: 0.5rem;
-  gap: 0.5rem;
   z-index: 1000;
+}
+#divnav {
+  height: 50px;
+  width: 1140px;
+  display: flex;
+  align-self: center;
+  text-align: center;
+  z-index: 1001;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  float: left;
+  margin-left: 100px;
 }
 
 body {
@@ -65,8 +72,32 @@ img:hover {
 
 #cerca {
   border-radius: 5px;
+  border: none;
   height: 25px;
+  width: 150px;
   max-lines: 2;
+  float: left;
+}
+
+#divcerca {
+  float: left;
+  margin-left: 100px;
+  background-color: white;
+  width: 191px;
+  position: relative;
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#btncerca {
+  width: 25px;
+  height: 29px;
+  margin: 0px;
+  position: static;
+  border-radius: 5px;
 }
 
 #sfondoitis {
