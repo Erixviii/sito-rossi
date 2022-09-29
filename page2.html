@@ -1,19 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Other page</title>
+    <title>Home</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
+
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
   </head>
-  <body>
+  <body >
     <nav>
-      <a href="/">Home</a>
-      <a href="/page2.html" aria-current="page">Other page</a>
+      
+      <a>Home</a>
+      <a>Studenti</a>
+      <a>Genitori</a>
+      <a>Docenti</a>
+      <a>News</a>
+      <a>Attività</a>
+      <a>REGISTRO</a>
+      <div class="div_ricerca">
+        <input id="ricerca" /> <button class="button_Ricerca">🔍</button>
+      </div>
     </nav>
-    <main>
-      <h1>My other page</h1>
-    </main>
+    <div class="sfondo_iniziale">
+      <div class="contenitore">
+      <img
+        class="logo"
+        src="	https://www.itisrossi.edu.it/wp-content/themes/itisrossiweb2r/images/logorossi_PICCOLO.png"
+      />
+      <div class="titolo">
+      <p> ISTITUTO TECNICO INDUSTRIALE STATALE A.ROSSI </p>
+      <div class="titolo2">
+      <p class="sottotitolo"> SCUOLA SECONDARIA DI SECONDO GRADO – INDIRIZZO TECNOLOGICO </p>
+      </div>
+      
+      </div>
+      <img class="logo2" src="https://www.itisrossi.edu.it/wp-content/uploads/2022/07/barra-enti.jpg">
+    </div>
+
+    <div class="centro">
+    <button id="freccia_sx" onclick="FrecciaSx()"> <= </button>
+    <img class="foto1" id="foto" src="https://www.itisrossi.edu.it/wp-content/uploads/2022/06/nicola-home-750x300.jpg">
+      <button id="freccia_dx" onclick="FrecciaDx()"> => </button>
+    </div>
+
+    <div class="centro2">
+        <div class="bacheca">
+          <div class="evidenza"><h2>In evidenza <h2></div>
+              <div class="bacheca2">
+                <div class="link1">
+                  <p class="data">16 Set 22</p>
+                  <div class="link">
+                  <p  class="link_evidenza" > <a href="https://web-platform-acbuk4.stackblitz.io/">C018 SCIOPERO DEL 23.09.2022 SCIOPERO SINDACATO SISA E  FLC CGIL E 23 E 24.09.2022 SINDACATO CSLE PERSONALE DOCENTE E ATA</a></p>
+                </div>
+              </div>
+                <div class="link2">
+                <p class="data">15 Set 22</p>
+                  <div class="link">
+                  <p  class="link_evidenza" > <a href="https://web-platform-acbuk4.stackblitz.io/">Procedura concorsuale e Calendario art. 59 comma 9 bis DL 73/2021 – Classe di concorso B016</a></p>
+                </div></div>
+                <div class="link3">
+                <p class="data">12 Set 22</p>
+                  <div class="link">
+                  <p  class="link_evidenza" > <a href="https://web-platform-acbuk4.stackblitz.io/">PLANIMETRIE AULE E LABORATORI</a></p>
+                </div></div>
+                <div class="link4">
+                <p class="data">31 Ago 22</p>
+                  <div class="link">
+                  <p class="link_evidenza" > <a href="https://web-platform-acbuk4.stackblitz.io/">Corsi Propedeutici di Grammatica italiana di base e Matematica per gli studenti di classe prima</a></p>
+                </div></div>
+              </div>
+              <div class="evidenza"><h2>Avvisi<h2></div>
+               <h2>Procedura concorsuale e calendario art. 59 comma 9 bis DL 73/2021 – Classe di concorso B016</h2>
+               <p class="testo">Nella <b>seguente pagina</b> sono presenti tutte le informazioni</p>
+              <br>
+               <h2>PLANIMETRIE DISPOSIZIONE AULE E LABORATORI A.S. 22-23</h2>
+               <p class="testo">Nella pagina<b> Sicurezza e Planimetrie</b> si trovano le indicazione della disposizione delle aule e dei laboratori.</p>
+               <br>
+               <h2>STUDENTI NEOISCRITTI IN CLASSE PRIMA</h2>
+               <p class="testo">Si ricorda agli studenti neoiscritti in classe prima e ai loro genitori che nella<b> pagina Estate</b> si trovano le indicazioni per il lavoro estivo di Italiano e Matematica. Prof.ssa Longo Domenica – FS Successo Scolastico.</p>
+               <br>
+               <h2>RICHIESTA PER INTERVENTI DI SOMMINISTRAZIONE FARMACI A SCUOLA</h2>
+               <p class="testo"><b>MODELLI 1 E 2</b></p>
+               <br>
+               <h2>PROTOCOLLO COVID 19</h2>
+               <p class="testo">Nella pagina<b> Protocollo Covid 19</b> è disponibile il protocollo aggiornato dell’istituto.</p>
+               <div class="News">
+                <div class="news">
+                  <h5 class="testo2">News</h5>
+                  <div>
+                  <div class="contenitore2">
+                  <h6 class="login2">15 Set 22</h6>
+                  <a class="linkk" href="https://web-platform-acbuk4.stackblitz.io"> Procedura concorsuale e Calendario art. 59 comma 9 bis DL 73/2021 – Classe di concorso B016</a>
+                  <br>
+                  
+                    <img class="foto_news" src="https://www.itisrossi.edu.it/wp-content/uploads/2018/05/avviso-importante-330x220.jpeg">
+                    <p class="testo3">Procedura concorsuale e Calendario art. 59 comma 9 bis DL 73/2021 – Classe di concorso B016 La Commissione si insedierà il giorno 16 settembre 2022 in videoconferenza pubblica a questo link Nel corso della seduta […]</p>
+                    <br>
+                    <hr>
+                    <div class="contenitore2">
+                      <h6 class="login2">15 Set 22</h6>
+                      <a class="linkk" href="https://web-platform-acbuk4.stackblitz.io"> Procedura concorsuale e Calendario art. 59 comma 9 bis DL 73/2021 – Classe di concorso B016</a>
+                      <br>
+                        <img class="foto_news" src="https://www.itisrossi.edu.it/wp-content/uploads/2018/09/avviso-studenti-330x220.jpg">
+                        <p class="testo3">Procedura concorsuale e Calendario art. 59 comma 9 bis DL 73/2021 – Classe di concorso B016 La Commissione si insedierà il giorno 16 settembre 2022 in videoconferenza pubblica a questo link Nel corso della seduta […]</p>
+                        <br>
+                    <hr>
+                    <div class="contenitore2">
+                      <h6 class="login2">12 Set 22</h6>
+                      <a class="linkk" href="https://web-platform-acbuk4.stackblitz.io"> Procedura concorsuale e Calendario art. 59 comma 9 bis DL 73/2021 – Classe di concorso B016</a>
+                      <br>
+                        <img class="foto_news" src="https://www.itisrossi.edu.it/wp-content/uploads/2017/09/avviso-giallo-importante.jpg">
+                        <p class="testo3">Procedura concorsuale e Calendario art. 59 comma 9 bis DL 73/2021 – Classe di concorso B016 La Commissione si insedierà il giorno 16 settembre 2022 in videoconferenza pubblica a questo link Nel corso della seduta […]</p>
+                        <br>
+                        <hr>
+                        <div class="contenitore2">
+                          <h6 class="login2">15 Set 22</h6>
+                          <a class="linkk" href="https://web-platform-acbuk4.stackblitz.io"> Procedura concorsuale e Calendario art. 59 comma 9 bis DL 73/2021 – Classe di concorso B016</a>
+                          <br>
+                            <img class="foto_news" src="https://www.itisrossi.edu.it/wp-content/uploads/2018/05/avviso-importante-330x220.jpeg">
+                            <p class="testo3">Procedura concorsuale e Calendario art. 59 comma 9 bis DL 73/2021 – Classe di concorso B016 La Commissione si insedierà il giorno 16 settembre 2022 in videoconferenza pubblica a questo link Nel corso della seduta […]</p>
+                        
+                    
+                      </div>
+                      <br>
+                      <hr>
+                      <div class="contenitore2">
+                        <h6 class="login2">15 Set 22</h6>
+                        <a class="linkk" href="https://web-platform-acbuk4.stackblitz.io"> Procedura concorsuale e Calendario art. 59 comma 9 bis DL 73/2021 – Classe di concorso B016</a>
+                        <br>
+                          <img class="foto_news" src="https://www.itisrossi.edu.it/wp-content/uploads/2022/07/rossi-confindustria-panoramica-330x220.jpg">
+                          <p class="testo3">Procedura concorsuale e Calendario art. 59 comma 9 bis DL 73/2021 – Classe di concorso B016 La Commissione si insedierà il giorno 16 settembre 2022 in videoconferenza pubblica a questo link Nel corso della seduta […]</p>
+                      
+                  
+                    </div>
+                    
+                
+                  </div>
+                    </div>
+                </div>
+                  </div>
+                </div>
+                <div class="circolari">
+                  <h5 class="testo2">Circolari</h5>
+                  <h6 class="login2">29 Set 22</h6>
+                  <a class="linkk" href="https://web-platform-acbuk4.stackblitz.io"> Procedura concorsuale e Calendario art. 59 comma 9 bis DL 73/2021 – Classe di concorso B016</a>
+                  <br>
+                  <hr>
+
+                  <h6 class="login2">29 Set 22</h6>
+                  <a class="linkk" href="https://web-platform-acbuk4.stackblitz.io"> C043 TUTTI Erasmus PRO VET LONG codice progetto 2021-1-IT01-KA121-VET- Opportunità per uno studente del Rossi neodiplomato.000007353</a>
+                  <br>
+                  <hr>
+
+                  <h6 class="login2">29 Set 22</h6>
+                  <a class="linkk" href="https://web-platform-acbuk4.stackblitz.io"> C039 DOCENTI CALENDARIO E ORDINE DEL GIORNO CONSIGLI DI OTTOBRE 2022 CORSO SERALE</a>
+                  <br>
+                  <hr>
+
+                  <h6 class="login2">29 Set 22</h6>
+                  <a class="linkk" href="https://web-platform-acbuk4.stackblitz.io">C038 DOCENTI Test d’ingresso di MATEMATICA classi PRIME</a>
+                  <br>
+                  <hr>
+
+                  <h6 class="login2">29 Set 22</h6>
+                  <a class="linkk" href="https://web-platform-acbuk4.stackblitz.io">  C037 DOCENTI Convocazione Riunione Dipartimento di Sostegno</a>
+                  <br>
+                  <hr>
+
+
+
+
+                </div>
+               </div>
+        </div>
+        
+        <div class="laterale">
+          <div class="titolologin"><h5 class="login">Login</h5></div>
+          <div class="form_utente">
+            <label class="nomeutente">Nome utente</label>
+            <input type="text" class="input_nomeutente">
+            <label class="password">  Password </label>
+            <input type="text" class="input_password">
+            <button class="button_login">Login</button>
+            <p class="password_persa"><a href="https://web-platform-acbuk4.stackblitz.io/"> Password persa </a></p>
+            <h5 class="login">Aziende Partner</h5>
+            <img id="partner" src="https://www.itisrossi.edu.it/wp-content/uploads/2018/10/aziende-partner.jpg">
+            <h5 class="login">Calendario</h5>
+            <img class="calendario" src="https://raw.githubusercontent.com/EnricoPalatella/Sito_Itis_Rossi/main/Cattura.PNG">
+            <h5 class="login">Amministrazione Trasparente</h5>
+            <br>
+            <img class="amministrazione" src="https://www.itisrossi.edu.it/wp-content/uploads/2017/08/albo_online-r.png">
+            <img class="amministrazione" src="https://www.itisrossi.edu.it/wp-content/uploads/2017/08/trasparenza-r.png">
+            <img class="amministrazione" src="https://www.itisrossi.edu.it/wp-content/uploads/2017/08/scuolainchiaro-r.jpg">
+            <img class="amministrazione" src="https://www.itisrossi.edu.it/wp-content/uploads/2017/08/bacheca-sindacale-r.png">
+            <img class="amministrazione" src="https://www.itisrossi.edu.it/wp-content/uploads/2017/08/noipa.png">
+            <img class="amministrazione" src="https://www.itisrossi.edu.it/wp-content/uploads/2020/09/protocollo-covid-scuola-r.jpg">
+            <h5 class="login">Servizi</h5>
+            <img class="amministrazione" src="https://www.itisrossi.edu.it/wp-content/uploads/2017/11/rigenerazioni.png">
+            <img class="amministrazione" src="https://www.itisrossi.edu.it/wp-content/uploads/2017/08/orario-settimanale.jpg">
+            <img class="amministrazione" src="https://www.itisrossi.edu.it/wp-content/uploads/2017/08/circolari-r.jpg">
+            <img class="amministrazione" src="https://www.itisrossi.edu.it/wp-content/uploads/2017/08/classeviva-r.png">
+            <img class="amministrazione" src="https://www.itisrossi.edu.it/wp-content/uploads/2018/11/fablab-r.jpg">
+            <img class="amministrazione" src="https://www.itisrossi.edu.it/wp-content/uploads/2017/08/iscrizioni.png">
+            <img class="amministrazione" src="https://www.itisrossi.edu.it/wp-content/uploads/2017/08/moodle-r.jpg">
+            <img class="amministrazione" src="https://www.itisrossi.edu.it/wp-content/uploads/2017/08/aule-speciali.jpg">
+            <img class="amministrazione" src="https://www.itisrossi.edu.it/wp-content/uploads/2017/08/rossitube-r.jpg">
+            <img class="amministrazione" src="https://www.itisrossi.edu.it/wp-content/uploads/2017/09/email.jpg">
+            <img class="amministrazione" src="https://www.itisrossi.edu.it/wp-content/uploads/2017/09/email.jpg">
+            <img class="amministrazione" src="https://www.itisrossi.edu.it/wp-content/uploads/2017/09/formazione.png">
+            <img class="amministrazione" src="https://www.itisrossi.edu.it/wp-content/uploads/2017/09/the-rossi-times-r.jpg">
+            <img class="amministrazione" src="https://www.itisrossi.edu.it/wp-content/uploads/2017/10/logo-genitori-lungo.jpg">
+            <img class="amministrazione" src="https://www.itisrossi.edu.it/wp-content/uploads/2017/10/ex-allievi.png">
+            <h5 class="login">Certificazioni</h5>
+            <img class="amministrazione" src="https://www.itisrossi.edu.it/wp-content/uploads/2021/01/Prep_centre_logo_ok.jpg">
+            <img class="amministrazione" src="https://www.itisrossi.edu.it/wp-content/uploads/2017/08/cisco-academy.jpg">
+            <img class="amministrazione" src="https://www.itisrossi.edu.it/wp-content/uploads/2019/12/vmc.png">
+            <img class="amministrazione" src="https://www.itisrossi.edu.it/wp-content/uploads/2021/03/icdl.jpg">
+            <img class="amministrazione" src="https://www.itisrossi.edu.it/wp-content/uploads/2018/09/cert-qualita-2.jpg">
+            
+          </div>
+        
+          
+        
+        </div>
+
+       
+    </div>
+
+    <img class="fine" src="https://raw.githubusercontent.com/EnricoPalatella/Sito-Rossi/main/Cattura2.PNG">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+var i = 0;
+var url1 =
+  'https://www.itisrossi.edu.it/wp-content/uploads/2022/06/nicola-home-750x300.jpg';
+var url2 =
+  'https://www.itisrossi.edu.it/wp-content/uploads/2022/07/gnm-panoramica-750x300.jpg';
+var url3 =
+  'https://www.itisrossi.edu.it/wp-content/uploads/2022/09/panoramica-istituto-750x300.jpg';
+
+var url4 = '	https://www.itisrossi.edu.it/wp-content/uploads/2022/06/foto-panoramica-2022-750x300.jpg';
+
+var stringhe = [url1, url2, url3, url4];
+
+window.onload = function () {
+  setInterval(function () {
+    if (i >= 4) {
+      i = 0;
+    }
+    
+    document.getElementById('foto').src =  stringhe[i];
+    i++;
+  }, 5000);
+};
+
+function FrecciaSx() {
+  if (i >= 4) {
+      i = 0;
+    }
+  document.getElementById('foto').src =  "";
+  document.getElementById('foto').src =  stringhe[i];
+  i++;
+}
+
+function FrecciaDx() {
+  if (i < 0) {
+      i = 3;
+    }
+  document.getElementById('foto').src =  stringhe[i];
+  i--;
+}
+
+
+    </script>
   </body>
 </html>
