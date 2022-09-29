@@ -2,7 +2,6 @@
   margin: 0px;
   padding: 0px;
 }
-
 h1,
 h2,
 h3,
@@ -11,10 +10,12 @@ h5,
 h6 {
   font-family: 'Montserrat', Helvetica, sans-serif;
   line-break: anywhere;
+  font-weight: 500;
 }
 
 h5 {
   color: #000000;
+  font-weight: bold;
 }
 
 nav {
@@ -46,6 +47,16 @@ a {
   padding: 15px;
   vertical-align: middle;
   text-decoration: none;
+}
+
+img {
+  height: 100px;
+  margin: auto;
+  scale: 1;
+  transition: transform 1.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+img:hover {
+  transform: scale(0.9);
 }
 
 #cerca:focus {
@@ -169,7 +180,7 @@ h3 {
 }
 
 #evidenzanews {
-  height: 140px;
+  height: 100px;
   display: grid;
   grid-auto-flow: column;
   justify-content: space-between;
@@ -178,7 +189,7 @@ h3 {
 }
 
 #avvisi {
-  height: 285px;
+  height: 250px;
   display: grid;
   margin: 0px 10px 0px 10px;
   justify-content: space-between;
@@ -194,6 +205,10 @@ h3 {
   width: 700px;
   height: 50px;
   display: inline-block;
+}
+
+.newsbox h4 {
+  text-decoration: underline;
 }
 
 #right {
@@ -221,7 +236,6 @@ h6 {
   margin: 15px 0px 5px 0px;
 }
 .rightbox h5 {
-  font-weight: bold;
   font-size: 15px;
   padding-top: 5px;
 }
@@ -264,4 +278,56 @@ h6 {
   width: 100%;
   height: auto;
 }
+
+#circolarisx {
+  width: 550px;
+  height: 1260px;
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.contenitore {
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+.contenitore span {
+  padding: 0px 10px;
+  background-color: #339bdf;
+  font-size: 0.85em;
+  border-radius: 4px;
+  box-shadow: 2px 2px 3px rgb(48, 48, 48);
+  text-transform: capitalize;
+}
+
+.avviso {
+  float: left;
+  padding: 2px;
+  height: 100px;
+  width: auto;
+}
+
+#circolarisx h7 {
+  margin-left: 10px;
+  font-size: 0.9em;
+  padding: 0px 5px;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  line-break: normal;
+  color: black;
+}
+.contenitore a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+#circolaridx {
+  width: 250px;
+  height: 1150px;
+  float: right;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 /**/
