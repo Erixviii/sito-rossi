@@ -1,0 +1,261 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  line-break: anywhere;
+}
+
+h5 {
+  color: #000000;
+}
+
+nav {
+  background-color: black;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  gap: 0.5rem;
+  z-index: 1000;
+}
+
+body {
+  color: white;
+  font-family: 'lato_regular', Verdana, sans-serif;
+  background-color: #8aace0;
+  display: block;
+  height: 4000px;
+}
+
+a {
+  color: white;
+  padding: 15px;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+#cerca:focus {
+  outline: none;
+}
+
+#cerca {
+  border-radius: 5px;
+  height: 25px;
+  max-lines: 2;
+}
+
+#sfondoitis {
+  height: 200px;
+  background-image: url('https://www.itisrossi.edu.it/wp-content/uploads/2018/07/24.2002-Prospetto-dellITIS-ROSSI.jpg');
+  background-size: 100%;
+  background-position-y: center;
+  display: flex;
+  margin-block-start: 65px;
+  margin-block-end: 30px;
+}
+
+button {
+  background-color: white;
+  position: absolute;
+  right: 135px;
+  top: 23px;
+  border: 0px;
+}
+
+img {
+  height: 100px;
+  margin: auto;
+  scale: 1;
+}
+
+h1,
+h2 {
+  z-index: 100;
+  background-color: aliceblue;
+  opacity: 0.6;
+  color: black;
+  font-family: 'avantgardelt_extralight', arial;
+  margin: 0px 0px 0px 0px;
+}
+
+#immaginiscorrevoli {
+  height: 500px;
+  width: 80%;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  align-content: center;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#titolo {
+  margin: auto;
+}
+
+#buttonleft {
+  height: 100px;
+  width: 100px;
+  float: left;
+}
+#buttonright {
+  height: 100px;
+  width: 100px;
+  float: right;
+}
+.btn {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(255, 0, 0);
+}
+
+.scorritem {
+  float: left;
+}
+
+.scorrbtn {
+  position: static;
+  height: 50px;
+  width: 25px;
+  margin: 20px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  opacity: 0.7;
+}
+.scorrbtn:hover {
+  opacity: 1;
+}
+
+#newsletter {
+  width: 80%;
+  height: 100%;
+  background-color: #deeff6;
+  margin: 20px 123px 20px 123px;
+}
+
+#left {
+  width: 74%;
+  height: 2500px;
+  background-color: white;
+  float: left;
+}
+
+h3 {
+  background-color: #385991;
+  right: 0px;
+  height: 32px;
+  color: white;
+  font-size: 1.4em;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+#evidenzanews {
+  height: 140px;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0px 10px 0px 10px;
+}
+
+#avvisi {
+  height: 285px;
+  display: grid;
+  margin: 0px 10px 0px 10px;
+  justify-content: space-between;
+  align-content: center;
+}
+
+#evidenza > .newsbox {
+  width: 180px;
+  display: inline-block;
+}
+
+#avvisi > .newsbox {
+  width: 700px;
+  height: 50px;
+  display: inline-block;
+}
+
+#right {
+  width: 25%;
+  height: 2500px;
+  background-color: deeff6;
+  float: right;
+}
+h4 + h5,
+h5 + h4 {
+  margin-top: 5px;
+}
+#evidenza {
+  background-color: #279eb1;
+}
+
+h6 {
+  padding: 10px;
+  background-color: #7fa6e8;
+  border-radius: 10px 10px 10px 10px;
+  color: #fff;
+  text-shadow: 3px 1px 6px #000;
+  font-size: 1.2em;
+  margin: 15px 0px 5px 0px;
+}
+.rightbox h5 {
+  font-weight: bold;
+  font-size: 15px;
+  padding-top: 5px;
+}
+
+.rightbox input {
+  width: 100%;
+  margin: 10px 0px 10px 0px;
+  height: 20px;
+}
+
+.rightbox {
+  justify-self: center;
+  text-align: center;
+  width: auto;
+  margin-right: 10px;
+  background-color: #eeeeee;
+  padding-bottom: 10px;
+}
+
+#logbtn {
+  padding: 5px 5px 5px 5px;
+  background-color: #f0f0f0;
+  border: black solid 1px;
+  position: static;
+  border-radius: 5px;
+}
+
+.rightbox a {
+  color: blue;
+  text-decoration: underline;
+  font-size: 12px;
+  padding: 0px;
+}
+
+#imgaziende {
+  width: 100%;
+  height: 47px;
+}
+/**/

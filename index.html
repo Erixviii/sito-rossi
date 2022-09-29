@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="">Home</a>
+      <a href="">STUDENTI</a>
+      <a href="">Genitori</a>
+      <a href="">Docenti</a>
+      <a href="">News</a>
+      <a href="">Attività</a>
+      <a href="">REGISTRO</a>&nbsp;
+      <div><input width="100px" id="cerca" /><button>🔎</button></div>
+    </nav>
+    <div id="sfondoitis">
+      <img
+        id="logo1"
+        src="https://www.itisrossi.edu.it/wp-content/themes/itisrossiweb2r/images/logorossi_PICCOLO.png"
+      />
+      <div id="titolo">
+        <h1>
+          ISTITUTO TECNICO INDUSTRIALE STATALE A.ROSSI<br />
+          <h2>SCUOLA SECONDARIA DI SECONDO GRADO – INDIRIZZO TECNOLOGICO</h2>
+        </h1>
+      </div>
+      <img
+        id="logo2"
+        src="https://www.itisrossi.edu.it/wp-content/uploads/2022/07/barra-enti.jpg"
+      />
+    </div>
+    <div id="immaginiscorrevoli">
+      <div class="scorritem">
+        <button class="scorrbtn" onclick="Nextimg(1)">←</button>
+      </div>
+      <div class="scorritem">
+        <button class="scorrbtn" onclick="Nextimg(-1)">→</button>
+      </div>
+    </div>
+
+    <div id="newsletter">
+      <div id="left">
+        <div id="evidenza">
+          <h3>In evidenza</h3>
+          <div id="evidenzanews">
+            <div class="newsbox">
+              <h5>Data</h5>
+              <h4>NEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWS</h4>
+            </div>
+            <div class="newsbox">
+              <h5>Data</h5>
+              <h4>NEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWS</h4>
+            </div>
+            <div class="newsbox">
+              <h5>Data</h5>
+              <h4>NEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWS</h4>
+            </div>
+            <div class="newsbox">
+              <h5>Data</h5>
+              <h4>NEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWS</h4>
+            </div>
+          </div>
+          <h3>Avvisi</h3>
+          <div id="avvisi">
+            <div class="newsbox">
+              <h4>Data</h4>
+              <h5>NEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSblblblblblblblblbl</h5>
+            </div>
+            <div class="newsbox">
+              <h4>Data</h4>
+              <h5>NEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSblblblblblblblblbl</h5>
+            </div>
+            <div class="newsbox">
+              <h4>Data</h4>
+              <h5>NEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSblblblblblblblblbl</h5>
+            </div>
+            <div class="newsbox">
+              <h4>Data</h4>
+              <h5>NEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSblblblblblblblblbl</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="right">
+        <div class="rightbox">
+          <h6>Login</h6>
+          <form action="">
+            <h5>Nome utente</h5>
+            <input type="text">
+            <br>
+            <h5>Password</h5>
+            <input type="text">
+            <br>
+            <button id="logbtn">Log in</button>
+            <br>
+            <a href="">Password persa</a>
+          </form>
+        </div>
+        <div class="rightbox">
+        <h6>Aziende Partner</h6>
+        <a href=""><img src="https://www.itisrossi.edu.it/wp-content/uploads/2018/10/aziende-partner.jpg" alt="" id="imgaziende"></a>
+      </div>
+      </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
+<!-- <img
+        src="https://www.itisrossi.edu.it/wp-content/uploads/2022/06/foto-panoramica-2022-750x300.jpg"
+        alt=""
+      /> -->
